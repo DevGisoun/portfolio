@@ -1,2 +1,2 @@
-export { Avatar } from './Avatar';
-export { TechBadge } from './TechBadge';
+// export { Avatar } from './Avatar';
+// export { TechBadge } from './TechBadge';
