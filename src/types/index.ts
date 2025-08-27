@@ -23,3 +23,8 @@ export interface ContactFormData {
     subject: string;
     message: string;
 }
+
+export interface NavItem {
+    label: string;
+    sectionId: string;
+}
