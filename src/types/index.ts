@@ -3,6 +3,7 @@ export interface PortfolioItem {
     description: string;
     tags: string[];
     image: string;
+    url?: string | null;
 }
 
 export interface Service {

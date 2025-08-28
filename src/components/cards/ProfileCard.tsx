@@ -33,7 +33,7 @@ export function ProfileCard() {
                 <div className="flex flex-col md:flex-row items-center gap-4 mb-6">
                     <Avatar className="w-20 h-20">
                         <AvatarImage
-                            src="/assets/avatar.jpg"
+                            src="/src/assets/avatar.jpg"
                             alt="profile-avatar"
                         />
                         <AvatarFallback className="text-3xl">👨‍💻</AvatarFallback>
