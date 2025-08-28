@@ -7,6 +7,7 @@ import portfolioImage2 from '/src/assets/images/portfolio-2.png';
 import portfolioImage3 from '/src/assets/images/portfolio-3.png';
 import portfolioImage4 from '/src/assets/images/portfolio-4.png';
 import portfolioImage5 from '/src/assets/images/portfolio-5.png';
+import portfolioImage6 from '/src/assets/images/portfolio-6.png';
 
 export function PortfolioSection() {
     const portfolioItems: PortfolioItem[] = [
@@ -63,6 +64,14 @@ export function PortfolioSection() {
             tags: ['Node.js', 'MySQL', 'ORM', 'AWS', 'EC2'],
             image: portfolioImage5,
             url: 'http://54.180.149.162:8086/?',
+        },
+        {
+            title: '사용자 관리 시스템 (MongoDB)',
+            description:
+                'MongoDB 를 통한 사용자 관리 시스템\n(with. 한컴 AI 아카데미)',
+            tags: ['Node.js', 'MongoDB', 'ORM', 'AWS', 'EC2'],
+            image: portfolioImage6,
+            url: 'http://54.180.149.162:8087/?',
         },
     ];
 
