@@ -3,6 +3,8 @@ import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 import { Badge } from '../ui/badge';
 import { Card, CardContent } from '../ui/card';
 
+import avatarImage from '/src/assets/avatar.jpg';
+
 export function ProfileCard() {
     const techStack: string[] = [
         'jQuery',
@@ -32,10 +34,7 @@ export function ProfileCard() {
             <CardContent className="p-0">
                 <div className="flex flex-col md:flex-row items-center gap-4 mb-6">
                     <Avatar className="w-20 h-20">
-                        <AvatarImage
-                            src="/src/assets/avatar.jpg"
-                            alt="profile-avatar"
-                        />
+                        <AvatarImage src={avatarImage} alt="profile-avatar" />
                         <AvatarFallback className="text-3xl">👨‍💻</AvatarFallback>
                     </Avatar>
                     <div className="text-center md:text-left">

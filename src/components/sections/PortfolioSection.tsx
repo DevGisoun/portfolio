@@ -1,6 +1,13 @@
 import type { PortfolioItem } from '@/types';
 import { PortfolioItemCard } from '../cards';
 
+// images
+import portfolioImage1 from '/src/assets/images/portfolio-1.png';
+import portfolioImage2 from '/src/assets/images/portfolio-2.png';
+import portfolioImage3 from '/src/assets/images/portfolio-3.png';
+import portfolioImage4 from '/src/assets/images/portfolio-4.png';
+import portfolioImage5 from '/src/assets/images/portfolio-5.png';
+
 export function PortfolioSection() {
     const portfolioItems: PortfolioItem[] = [
         {
@@ -8,7 +15,7 @@ export function PortfolioSection() {
             description:
                 'Vue.js, CesiumJS 기반 드론 관제 플랫폼 프론트엔드 개발',
             tags: ['Vue.js', 'CesiumJS', 'Javascript'],
-            image: '/src/assets/images/portfolio-1.png',
+            image: portfolioImage1,
         },
         {
             title: "'9급 공무원 시험-Pass' 앱",
@@ -24,7 +31,7 @@ export function PortfolioSection() {
                 'TypeScript',
                 'Python',
             ],
-            image: '/src/assets/images/portfolio-2.png',
+            image: portfolioImage2,
         },
         {
             title: '웹 기반 EnMS',
@@ -39,14 +46,14 @@ export function PortfolioSection() {
                 'InfluxDB',
                 'RabbitMQ',
             ],
-            image: '/src/assets/images/portfolio-3.png',
+            image: portfolioImage3,
         },
         {
             title: '사용자 관리 시스템 (SQL)',
             description:
                 'PUG 템플릿을 적용한 사용자 관리 시스템\n(with. 한컴 AI 아카데미)',
             tags: ['PUG', 'Node.js', 'MySQL', 'AWS', 'EC2'],
-            image: '/src/assets/images/portfolio-4.png',
+            image: portfolioImage4,
             url: 'http://54.180.149.162:8085/?',
         },
         {
@@ -54,7 +61,7 @@ export function PortfolioSection() {
             description:
                 'Sequalize ORM 을 통한 사용자 관리 시스템\n(with. 한컴 AI 아카데미)',
             tags: ['Node.js', 'MySQL', 'ORM', 'AWS', 'EC2'],
-            image: '/src/assets/images/portfolio-5.png',
+            image: portfolioImage5,
             url: 'http://54.180.149.162:8086/?',
         },
     ];
